@@ -11,7 +11,9 @@ def main():
         result = add(data_1, data_2)
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
-
+    
+def add(a, b):
+    return a + b
 
 if __name__ == "__main__":
     print("Hello Main !")
